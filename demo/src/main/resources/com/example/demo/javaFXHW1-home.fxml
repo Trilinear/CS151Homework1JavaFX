@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+
+<VBox alignment="CENTER" spacing="10.0" xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.example.demo.javafxHW1Controller">
+  <padding>
+    <Insets bottom="10.0" left="10.0" right="10.0" top="10.0"/>
+  </padding>
+
+  <Label text="This is an animation with a red ball, blue square, and black rectangle." />
+  <Label text="You are modifying only the red ball." />
+  <Label text="Enter how far the red ball goes in pixels:" />
+  <TextField fx:id="inputField" />
+  <Button text="Confirm" onAction="#buttonClicked" />
+</VBox>
